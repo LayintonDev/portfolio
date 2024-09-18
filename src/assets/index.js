@@ -27,9 +27,15 @@ import quickdrop from "./company/quickdrop.jpg";
 import finterest from "./company/finterest.png";
 import fiver from "./company/fiver.svg";
 
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import mediquick from "./medi.png";
+import gonachi from "./gonachi.png";
+import hoobank from "./hoobank.png";
+import trendit from "./trendit.png";
+import mubdeen from "./mubdeen.png";
+import mubdeen1 from "./mubdeen1.png";
+import femlad from "./femlad.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -39,8 +45,15 @@ export {
   mobile,
   web,
   github,
+  mediquick,
+  gonachi,
+  hoobank,
+  trendit,
   menu,
   close,
+  mubdeen,
+  mubdeen1,
+  femlad,
   css,
   docker,
   figma,

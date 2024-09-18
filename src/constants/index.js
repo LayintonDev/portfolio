@@ -13,18 +13,21 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-
-  carrent,
+  hoobank,
+  trendit,
+  mediquick,
   jobit,
   tripguide,
   threejs,
+  gonachi,
+  femlad,
+  mubdeen,
+  mubdeen1,
   dart,
   flutter,
   fiver,
   quickdrop,
-  finterest
+  finterest,
 } from "../assets";
 
 export const navLinks = [
@@ -78,7 +81,7 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-    {
+  {
     name: "Dart",
     icon: dart,
   },
@@ -159,12 +162,10 @@ const experiences = [
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web, mobile and backend servers using React.js, Flutter, Node js, Firebase  and other related technologies.",
-   
+
       "Implementing responsive design, ensuring cross-browser compatibility and developing secure and scalable backend servers for various clients around the world",
-      
     ],
   },
- 
 ];
 
 const testimonials = [
@@ -196,51 +197,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Finterest Capital",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Stock Advisory Web app built for an indian company. It is built with Flutter and Dart. It helps user get stock recommendations.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgress",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: finterest,
+    github_link: "#",
+    source_code_link: "https://dashboard.finterestcapital.com/",
   },
   {
-    name: "Job IT",
+    name: "Mubdeen Telecoms",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A VTU and utility payment gateway. It provides an easy and secure way for users to pay their utilities and VTU. ",
     tags: [
       {
-        name: "react",
+        name: "next js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node js/koa.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgress",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: mubdeen1,
+    github_link: "#",
+    source_code_link: "https://mubdeentelecoms.com/",
   },
   {
-    name: "Trip Guide",
+    name: "FemladTech",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A VTU and utility payment gateway. It provides an easy and secure way for users to pay their utilities and VTU. ",
     tags: [
       {
         name: "nextjs",
@@ -255,8 +258,144 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: femlad,
+    github_link: "#",
+    source_code_link: "https://www.femladtech.com/",
+  },
+  {
+    name: "Finterest Capital Mobile App",
+    description:
+      "Stock Advisory Web app built for an indian company. It is built with Flutter and Dart. It helps user get stock recommendations.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "koa.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: finterest,
+    github_link: "#",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.ar.finterest.finterest&hl=id",
+  },
+  {
+    name: "Mubdeen Telecoms Mobile App",
+    description:
+      "A VTU and utility payment gateway. It provides an easy and secure way for users to pay their utilities and VTU. ",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node js/koa.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mubdeen,
+    github_link: "#",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.mubdeentelecoms&hl=id",
+  },
+  {
+    name: "Gonachi Mobile App",
+    description:
+      "A webview based app for a reputable real estate company. It provides a platform where property owners can meet with prospective buyers.It is built with Flutter. ",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gonachi,
+    github_link: "#",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.gonachi&hl=id",
+  },
+  {
+    name: "Trend itt",
+    description:
+      "A Simple web clone of meta thread that allows users to post threads. ",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trendit,
+    github_link: "https://github.com/LayintonDev/trendit",
+    source_code_link: "https://trenditt.vercel.app/",
+  },
+  {
+    name: "MediQuick",
+    description:
+      "A Next js based web application for booking appointments with doctors.",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mediquick,
+    github_link: "https://github.com/LayintonDev/Mediquick",
+    source_code_link: "https://mediquick.vercel.app/",
+  },
+  {
+    name: "ModernBank",
+    description:
+      "A banking website landing page illustrating the elegant design and user experience. ",
+    tags: [
+      {
+        name: "next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: hoobank,
+    github_link: "https://github.com/LayintonDev/modern_bank_landing_page",
+    source_code_link: "https://modernbank.netlify.app/",
   },
 ];
 
